@@ -13,6 +13,10 @@
 		8F7F009F20417605008D4399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F009E20417605008D4399 /* Assets.xcassets */; };
 		8F7F00A220417605008D4399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00A020417605008D4399 /* LaunchScreen.storyboard */; };
 		8F7F00A520417605008D4399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00A420417605008D4399 /* main.m */; };
+		8F7F00B320417640008D4399 /* UIColor+AllColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00AD20417640008D4399 /* UIColor+AllColors.m */; };
+		8F7F00B420417640008D4399 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00AF20417640008D4399 /* UIColor+HexString.m */; };
+		8F7F00B520417640008D4399 /* XTColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B020417640008D4399 /* XTColors.plist */; };
+		8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00B220417640008D4399 /* XTColorFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		8F7F00A120417605008D4399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F7F00A320417605008D4399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F7F00A420417605008D4399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7F00AC20417640008D4399 /* UIColor+AllColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AllColors.h"; sourceTree = "<group>"; };
+		8F7F00AD20417640008D4399 /* UIColor+AllColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AllColors.m"; sourceTree = "<group>"; };
+		8F7F00AE20417640008D4399 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		8F7F00AF20417640008D4399 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		8F7F00B020417640008D4399 /* XTColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XTColors.plist; sourceTree = "<group>"; };
+		8F7F00B120417640008D4399 /* XTColorFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTColorFetcher.h; sourceTree = "<group>"; };
+		8F7F00B220417640008D4399 /* XTColorFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTColorFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			children = (
 				8F7F009520417605008D4399 /* AppDelegate.h */,
 				8F7F009620417605008D4399 /* AppDelegate.m */,
+				8F7F00AB20417640008D4399 /* color */,
 				8F7F009820417605008D4399 /* ViewController.h */,
 				8F7F009920417605008D4399 /* ViewController.m */,
 				8F7F009B20417605008D4399 /* Main.storyboard */,
@@ -69,6 +81,20 @@
 				8F7F00A420417605008D4399 /* main.m */,
 			);
 			path = XTColor;
+			sourceTree = "<group>";
+		};
+		8F7F00AB20417640008D4399 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F00AC20417640008D4399 /* UIColor+AllColors.h */,
+				8F7F00AD20417640008D4399 /* UIColor+AllColors.m */,
+				8F7F00AE20417640008D4399 /* UIColor+HexString.h */,
+				8F7F00AF20417640008D4399 /* UIColor+HexString.m */,
+				8F7F00B020417640008D4399 /* XTColors.plist */,
+				8F7F00B120417640008D4399 /* XTColorFetcher.h */,
+				8F7F00B220417640008D4399 /* XTColorFetcher.m */,
+			);
+			path = color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +157,7 @@
 			files = (
 				8F7F00A220417605008D4399 /* LaunchScreen.storyboard in Resources */,
 				8F7F009F20417605008D4399 /* Assets.xcassets in Resources */,
+				8F7F00B520417640008D4399 /* XTColors.plist in Resources */,
 				8F7F009D20417605008D4399 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7F00B420417640008D4399 /* UIColor+HexString.m in Sources */,
 				8F7F009A20417605008D4399 /* ViewController.m in Sources */,
+				8F7F00B320417640008D4399 /* UIColor+AllColors.m in Sources */,
 				8F7F00A520417605008D4399 /* main.m in Sources */,
 				8F7F009720417605008D4399 /* AppDelegate.m in Sources */,
+				8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
