@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIColor+AllColors.h"
+#import "XTColorFetcher.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    原有
     self.view.backgroundColor = [UIColor xt_main] ;
+    
+    
+//  自定义
+//    NSString *plistPath = [[NSBundle bundleForClass:self.class] pathForResource:@"MyColors" ofType:@"plist"] ;
+//    [[XTColorFetcher sharedInstance] configureCustomPlistWithFilePath:plistPath] ;
+//    self.view.backgroundColor = [UIColor aabbccc] ;
+    
+    
+    
 }
 
 
