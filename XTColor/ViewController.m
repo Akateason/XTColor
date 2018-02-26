@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIColor+AllColors.h"
-#import "XTColorFetcher.h"
+#import "XTColor.h"
 
 @interface ViewController ()
 
