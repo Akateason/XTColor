@@ -18,6 +18,7 @@
 		8F7F00B520417640008D4399 /* XTColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B020417640008D4399 /* XTColors.plist */; };
 		8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00B220417640008D4399 /* XTColorFetcher.m */; };
 		8F7F00B820418738008D4399 /* MyColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B720418737008D4399 /* MyColors.plist */; };
+		8FDE205A205A1DAB003B5398 /* ColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		8F7F00B220417640008D4399 /* XTColorFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTColorFetcher.m; sourceTree = "<group>"; };
 		8F7F00B720418737008D4399 /* MyColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyColors.plist; sourceTree = "<group>"; };
 		8F7F00B92043B206008D4399 /* XTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTColor.h; sourceTree = "<group>"; };
+		8FDE2058205A1DAB003B5398 /* ColorCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCollectionViewCell.h; sourceTree = "<group>"; };
+		8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				8F7F00B720418737008D4399 /* MyColors.plist */,
 				8F7F009820417605008D4399 /* ViewController.h */,
 				8F7F009920417605008D4399 /* ViewController.m */,
+				8FDE2058205A1DAB003B5398 /* ColorCollectionViewCell.h */,
+				8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */,
 				8F7F009B20417605008D4399 /* Main.storyboard */,
 				8F7F009E20417605008D4399 /* Assets.xcassets */,
 				8F7F00A020417605008D4399 /* LaunchScreen.storyboard */,
@@ -175,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDE205A205A1DAB003B5398 /* ColorCollectionViewCell.m in Sources */,
 				8F7F00B420417640008D4399 /* UIColor+HexString.m in Sources */,
 				8F7F009A20417605008D4399 /* ViewController.m in Sources */,
 				8F7F00B320417640008D4399 /* UIColor+AllColors.m in Sources */,

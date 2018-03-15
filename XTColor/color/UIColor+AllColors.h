@@ -9,17 +9,32 @@
 
 @interface UIColor (AllColors)
 
-+ (UIColor *)mainBlue ;
-+ (UIColor *)text1 ;
-+ (UIColor *)lightYellow ;
-+ (UIColor *)borderGray ;
-+ (UIColor *)grayBg ;
-+ (UIColor *)purple ;
-+ (UIColor *)weixinGreen ;
-+ (UIColor *)xt_main ;
-+ (UIColor *)xt_bg ;
-+ (UIColor *)xt_text_dark ;
-+ (UIColor *)xt_text_light ;
-//+ (UIColor *)aabbccc ;
++ (UIColor *)xt_red ;
+
++ (UIColor *)xt_sugarRed ;
+
++ (UIColor *)xt_facePink ;
+
++ (UIColor *)xt_champagne ;
+
++ (UIColor *)xt_bg_lightGray ;
+
++ (UIColor *)xt_bg_beachStorm ;
+
++ (UIColor *)xt_yellow ;
+
++ (UIColor *)xt_lightOrange ;
+
++ (UIColor *)xt_orange ;
+
++ (UIColor *)xt_skyBlue ;
+
++ (UIColor *)xt_pondWater ;
+
++ (UIColor *)xt_skyCyan ;
+
++ (UIColor *)xt_seedGreen ;
+
++ (UIColor *)xt_grassGreen ;
 
 @end
