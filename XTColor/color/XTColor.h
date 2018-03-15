@@ -9,7 +9,7 @@
 #ifndef XTColor_h
 #define XTColor_h
 
-#import "UIColor+AllColors.h"
+#import "UIColor+XTColors.h"
 #import "XTColorFetcher.h"
 #import "UIColor+HexString.h"
 

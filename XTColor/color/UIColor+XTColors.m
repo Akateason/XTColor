@@ -1,18 +1,19 @@
 //
-//  UIColor+AllColors.m
+//  UIColor+XTColors.m
+//  XTColor
 //
-//  Created by teason on 16/3/21.
-//  Copyright © 2016年 teason. All rights reserved.
+//  Created by teason23 on 2018/3/15.
+//  Copyright © 2018年 teason23. All rights reserved.
 //
 
-#import "UIColor+AllColors.h"
+#import "UIColor+XTColors.h"
 #import "XTColorFetcher.h"
 #import <objc/runtime.h>
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wincomplete-implementation"
 
-@implementation UIColor (AllColors)
+@implementation UIColor (XTColors)
 
 + (BOOL)resolveClassMethod:(SEL)sel {
     NSString *selectorString = NSStringFromSelector(sel) ;

@@ -1,13 +1,14 @@
 //
-//  UIColor+AllColors.h
+//  UIColor+XTColors.h
+//  XTColor
 //
-//  Created by teason on 16/3/21.
-//  Copyright © 2016年 teason. All rights reserved.
+//  Created by teason23 on 2018/3/15.
+//  Copyright © 2018年 teason23. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (AllColors)
+@interface UIColor (XTColors)
 
 + (UIColor *)xt_red ;
 
