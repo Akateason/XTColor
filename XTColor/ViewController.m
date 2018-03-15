@@ -10,6 +10,9 @@
 #import "XTColor.h"
 #import "ColorCollectionViewCell.h"
 
+
+#import "XTColor+MyColors.h"
+
 @interface ViewController () <UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) NSArray *colors ;
@@ -20,14 +23,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    原有
-    self.view.backgroundColor = [UIColor xt_red] ;
+//  原有
+    UIView *cusView1 = [UIView new] ;
+    cusView1.backgroundColor = [UIColor xt_seedGreen] ;
+    cusView1.frame = CGRectMake(100, 10, 100, 100) ;
+    [self.view addSubview:cusView1] ;
+
+//  自定义的 plist . bb
+    [XTColor configCustomPlistName:@"MyColors"] ;
+    self.view.backgroundColor = [XTColor xt_main] ;
+    
+//  自定义之后,依然能使用之前的.
+    UIView *cusView = [UIView new] ;
+    cusView.backgroundColor = [UIColor xt_red] ;
+    cusView.frame = CGRectMake(10, 10, 100, 100) ;
+    [self.view addSubview:cusView] ;
     
     
-//  自定义
-//    NSString *plistPath = [[NSBundle bundleForClass:self.class] pathForResource:@"MyColors" ofType:@"plist"] ;
-//    [[XTColorFetcher sharedInstance] configureCustomPlistWithFilePath:plistPath] ;
-//    self.view.backgroundColor = [UIColor aabbccc] ;
     
     self.collectionView.hidden = YES ;
 //    float wid = [UIScreen mainScreen].bounds.size.width / 4 ;

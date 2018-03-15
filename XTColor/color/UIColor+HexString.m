@@ -13,7 +13,7 @@
 
 + (UIColor *)colorWithHexString:(NSString *)color
 {
-    return [self colorWithHexString:color alpha:1.] ;
+    return  color ? [self colorWithHexString:color alpha:1.] : nil ;
 }
 
 + (UIColor *)colorWithHexString:(NSString *)color

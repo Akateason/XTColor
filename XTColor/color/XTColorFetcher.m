@@ -62,6 +62,9 @@ static XTColorFetcher *_instance ;
 
 - (void)configureCustomPlistWithFilePath:(NSString *)filePath {
     self.plistName = filePath ;
+    if (![filePath isEqualToString:kOriginalColorSourceName]) {
+        [self appendData] ;
+    }    
 }
 
 - (NSDictionary *)dicData {
@@ -71,17 +74,28 @@ static XTColorFetcher *_instance ;
     return _dicData ;
 }
 
+- (void)appendData {
+    NSMutableDictionary *tmpDic = [self.dicData mutableCopy] ;
+    [tmpDic addEntriesFromDictionary:[self fromPlist]] ;
+    self.dicData = [tmpDic copy] ;
+}
+
 - (NSDictionary *)fromPlist {
 //    NSString *plistPath = [[NSBundle mainBundle] pathForResource:self.plistName ofType:@"plist"] ;  // deprecated, will cause a crash in pods. canot found resource .
     if (![self.plistName isEqualToString:kOriginalColorSourceName]) {
         // custom
-        return [[NSDictionary alloc] initWithContentsOfFile:self.plistName] ;
+        NSString *plistPath = [[NSBundle mainBundle] pathForResource:self.plistName ofType:@"plist"] ;
+        return [[NSDictionary alloc] initWithContentsOfFile:plistPath] ;
     }
     else {
         // in pod bundle .
-        NSString *plistPath = [[NSBundle bundleForClass:XTColorFetcher.class] pathForResource:self.plistName ofType:@"plist"] ;
-        return [[NSDictionary alloc] initWithContentsOfFile:plistPath] ;
+        return [self getOriginPlist] ;
     }
+}
+
+- (NSDictionary *)getOriginPlist {
+    NSString *plistPath = [[NSBundle bundleForClass:XTColorFetcher.class] pathForResource:kOriginalColorSourceName ofType:@"plist"] ;
+    return [[NSDictionary alloc] initWithContentsOfFile:plistPath] ;
 }
 
 - (UIColor *)getColorWithRed:(float)fRed
@@ -133,8 +147,24 @@ static XTColorFetcher *_instance ;
         return [self colorRGB:spaceList] ;
     }
     else {
-        return [UIColor colorWithHexString:jsonStr] ;
+        if ([UIColor colorWithHexString:jsonStr] && jsonStr) {
+            return [UIColor colorWithHexString:jsonStr] ;
+        }
+        else {
+            if (![self.plistName isEqualToString:kOriginalColorSourceName]) {
+                //if in plist is custom not found .  to origin plist
+                self.plistName = kOriginalColorSourceName ;
+                [self appendData] ;
+                return [self xt_colorWithKey:key] ;
+            }
+            else {
+                return nil ;
+            }
+        }
+        
     }
+    
+    
     return nil ;
 }
 
