@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XTColor"
-  s.version      = "0.0.6"
+  s.version      = "1.0.0"
   s.summary      = "XTColor color util for Objective-C ."
 
   # This description is used to generate tags and improve search results.
