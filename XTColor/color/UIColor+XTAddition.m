@@ -1,24 +1,36 @@
 //
-//  UIColor+HexString.m
-//  teason
+//  UIColor+XTAddition.m
+//  XTColor
 //
-//  Created by teason on 15/8/10.
-//  Copyright (c) 2015年 teason. All rights reserved.
+//  Created by teason23 on 2018/5/29.
+//  Copyright © 2018年 teason23. All rights reserved.
 //
 
-#import "UIColor+HexString.h"
+#import "UIColor+XTAddition.h"
+
+@implementation UIColor (XTAddition)
+
++ (UIColor *)colorBetweengGradientColor:(UIColor *)startColor
+                               andColor:(UIColor *)endColor
+                                percent:(CGFloat)percent
+{
+    double resultRed = startColor.CIColor.red + percent * (endColor.CIColor.red - startColor.CIColor.red);
+    double resultGreen = startColor.CIColor.green + percent * (endColor.CIColor.green - startColor.CIColor.green);
+    double resultBlue = startColor.CIColor.blue + percent * (endColor.CIColor.blue - startColor.CIColor.blue);
+    return UIColorRGB(resultRed, resultGreen, resultBlue) ;
+}
+
+@end
+
+
 
 @implementation UIColor (HexString)
 
-
-+ (UIColor *)colorWithHexString:(NSString *)color
-{
++ (UIColor *)colorWithHexString:(NSString *)color {
     return  color ? [self colorWithHexString:color alpha:1.] : nil ;
 }
 
-+ (UIColor *)colorWithHexString:(NSString *)color
-                          alpha:(float)alpha
-{
++ (UIColor *)colorWithHexString:(NSString *)color alpha:(float)alpha {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
     // String should be 6 or 8 characters
@@ -58,7 +70,5 @@
     
     return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:alpha];
 }
-
-
 
 @end

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F45798B20BD57000074A7D2 /* UIColor+XTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */; };
 		8F7F009720417605008D4399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F009620417605008D4399 /* AppDelegate.m */; };
 		8F7F009A20417605008D4399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F009920417605008D4399 /* ViewController.m */; };
 		8F7F009D20417605008D4399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F009B20417605008D4399 /* Main.storyboard */; };
 		8F7F009F20417605008D4399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F009E20417605008D4399 /* Assets.xcassets */; };
 		8F7F00A220417605008D4399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00A020417605008D4399 /* LaunchScreen.storyboard */; };
 		8F7F00A520417605008D4399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00A420417605008D4399 /* main.m */; };
-		8F7F00B420417640008D4399 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00AF20417640008D4399 /* UIColor+HexString.m */; };
 		8F7F00B520417640008D4399 /* XTColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B020417640008D4399 /* XTColors.plist */; };
 		8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00B220417640008D4399 /* XTColorFetcher.m */; };
 		8F7F00B820418738008D4399 /* MyColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B720418737008D4399 /* MyColors.plist */; };
@@ -24,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F45798920BD57000074A7D2 /* UIColor+XTAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XTAddition.h"; sourceTree = "<group>"; };
+		8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XTAddition.m"; sourceTree = "<group>"; };
 		8F7F009220417605008D4399 /* XTColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7F009520417605008D4399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F7F009620417605008D4399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +36,6 @@
 		8F7F00A120417605008D4399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F7F00A320417605008D4399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F7F00A420417605008D4399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F7F00AE20417640008D4399 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		8F7F00AF20417640008D4399 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		8F7F00B020417640008D4399 /* XTColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XTColors.plist; sourceTree = "<group>"; };
 		8F7F00B120417640008D4399 /* XTColorFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTColorFetcher.h; sourceTree = "<group>"; };
 		8F7F00B220417640008D4399 /* XTColorFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTColorFetcher.m; sourceTree = "<group>"; };
@@ -104,10 +104,10 @@
 			children = (
 				8FDE2064205A2574003B5398 /* XTColor.h */,
 				8FDE2065205A2574003B5398 /* XTColor.m */,
+				8F45798920BD57000074A7D2 /* UIColor+XTAddition.h */,
+				8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */,
 				8FDE205B205A2175003B5398 /* UIColor+XTColors.h */,
 				8FDE205C205A2175003B5398 /* UIColor+XTColors.m */,
-				8F7F00AE20417640008D4399 /* UIColor+HexString.h */,
-				8F7F00AF20417640008D4399 /* UIColor+HexString.m */,
 				8F7F00B020417640008D4399 /* XTColors.plist */,
 				8F7F00B120417640008D4399 /* XTColorFetcher.h */,
 				8F7F00B220417640008D4399 /* XTColorFetcher.m */,
@@ -189,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDE205A205A1DAB003B5398 /* ColorCollectionViewCell.m in Sources */,
-				8F7F00B420417640008D4399 /* UIColor+HexString.m in Sources */,
 				8F7F009A20417605008D4399 /* ViewController.m in Sources */,
 				8FDE205D205A2175003B5398 /* UIColor+XTColors.m in Sources */,
 				8F7F00A520417605008D4399 /* main.m in Sources */,
@@ -197,6 +196,7 @@
 				8FDE2066205A2574003B5398 /* XTColor.m in Sources */,
 				8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */,
 				8FDE206C205A26E0003B5398 /* XTColor+MyColors.m in Sources */,
+				8F45798B20BD57000074A7D2 /* UIColor+XTAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
