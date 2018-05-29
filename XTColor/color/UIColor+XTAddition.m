@@ -7,6 +7,7 @@
 //
 
 #import "UIColor+XTAddition.h"
+#import <CoreImage/CoreImage.h>
 
 @implementation UIColor (XTAddition)
 
@@ -14,10 +15,13 @@
                                andColor:(UIColor *)endColor
                                 percent:(CGFloat)percent
 {
-    double resultRed = startColor.CIColor.red + percent * (endColor.CIColor.red - startColor.CIColor.red);
-    double resultGreen = startColor.CIColor.green + percent * (endColor.CIColor.green - startColor.CIColor.green);
-    double resultBlue = startColor.CIColor.blue + percent * (endColor.CIColor.blue - startColor.CIColor.blue);
-    return [UIColor colorWithRed:(resultRed)/255.0 green:(resultGreen)/255.0 blue:(resultBlue)/255.0 alpha:(1.0)] ;
+    CIColor *ciStart = [CIColor colorWithCGColor:startColor.CGColor] ;
+    CIColor *ciEnd = [CIColor colorWithCGColor:endColor.CGColor] ;
+    
+    double resultRed = ciStart.red + percent * (ciEnd.red - ciStart.red);
+    double resultGreen = ciStart.green + percent * (ciEnd.green - ciStart.green);
+    double resultBlue = ciStart.blue + percent * (ciEnd.blue - ciStart.blue);
+    return [UIColor colorWithRed:(resultRed) green:(resultGreen) blue:(resultBlue) alpha:(1.0)] ;
 }
 
 @end

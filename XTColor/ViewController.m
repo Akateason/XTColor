@@ -53,6 +53,9 @@
 //    NSString *plistPath = [[NSBundle bundleForClass:XTColorFetcher.class] pathForResource:@"XTColors" ofType:@"plist"] ;
 //    self.colors = [[[NSDictionary alloc] initWithContentsOfFile:plistPath] allKeys] ;
     
+    UIColor *aColor = [UIColor colorBetweengGradientColor:UIColorHex(@"31a1f5") andColor:UIColorHex(@"1bff92") percent:.4] ;
+    self.view.backgroundColor = aColor ;
+
 }
 
 
