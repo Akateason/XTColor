@@ -17,7 +17,7 @@
     double resultRed = startColor.CIColor.red + percent * (endColor.CIColor.red - startColor.CIColor.red);
     double resultGreen = startColor.CIColor.green + percent * (endColor.CIColor.green - startColor.CIColor.green);
     double resultBlue = startColor.CIColor.blue + percent * (endColor.CIColor.blue - startColor.CIColor.blue);
-    return UIColorRGB(resultRed, resultGreen, resultBlue) ;
+    return [UIColor colorWithRed:(resultRed)/255.0 green:(resultGreen)/255.0 blue:(resultBlue)/255.0 alpha:(1.0)] ;
 }
 
 @end

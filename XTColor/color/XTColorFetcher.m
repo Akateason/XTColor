@@ -6,7 +6,7 @@
 //
 
 #import "XTColorFetcher.h"
-#import "UIColor+HexString.h"
+#import "UIColor+XTAddition.h"
 
 static NSString *const kOriginalColorSourceName = @"XTColors" ;
 

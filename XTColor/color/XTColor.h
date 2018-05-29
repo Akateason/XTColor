@@ -9,7 +9,7 @@
 
 #import "UIColor+XTColors.h"
 #import "XTColorFetcher.h"
-#import "UIColor+HexString.h"
+#import "UIColor+XTAddition.h"
 
 
 #undef  UIColorRGBA
