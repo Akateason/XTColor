@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F19862220C96BB90082662A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F19862120C96BB90082662A /* README.md */; };
 		8F45798B20BD57000074A7D2 /* UIColor+XTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */; };
 		8F7F009720417605008D4399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F009620417605008D4399 /* AppDelegate.m */; };
 		8F7F009A20417605008D4399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F009920417605008D4399 /* ViewController.m */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F19862120C96BB90082662A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8F45798920BD57000074A7D2 /* UIColor+XTAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XTAddition.h"; sourceTree = "<group>"; };
 		8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XTAddition.m"; sourceTree = "<group>"; };
 		8F7F009220417605008D4399 /* XTColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		8F7F009420417605008D4399 /* XTColor */ = {
 			isa = PBXGroup;
 			children = (
+				8F19862120C96BB90082662A /* README.md */,
 				8F7F00AB20417640008D4399 /* color */,
 				8F7F009520417605008D4399 /* AppDelegate.h */,
 				8F7F009620417605008D4399 /* AppDelegate.m */,
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F19862220C96BB90082662A /* README.md in Resources */,
 				8F7F00B820418738008D4399 /* MyColors.plist in Resources */,
 				8F7F00A220417605008D4399 /* LaunchScreen.storyboard in Resources */,
 				8F7F009F20417605008D4399 /* Assets.xcassets in Resources */,

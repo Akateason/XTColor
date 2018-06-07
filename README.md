@@ -1,2 +1,4 @@
 # XTColor
-配置化的颜色获取
+
+fetch color in plist with 0 line code .
+
