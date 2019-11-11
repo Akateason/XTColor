@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XTColor"
-  s.version      = "1.0.4"
+  s.version      = "1.1.0"
   s.summary      = "XTColor color util for Objective-C ."
 
 
