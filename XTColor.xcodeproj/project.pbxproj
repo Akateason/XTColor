@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21654B40D61B15F53A54B416 /* Pods_XTColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828098E9F6BFB95C2ED527D /* Pods_XTColor.framework */; };
 		8F19862220C96BB90082662A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F19862120C96BB90082662A /* README.md */; };
 		8F45798B20BD57000074A7D2 /* UIColor+XTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */; };
 		8F7F009720417605008D4399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F009620417605008D4399 /* AppDelegate.m */; };
@@ -18,6 +19,13 @@
 		8F7F00B520417640008D4399 /* XTColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B020417640008D4399 /* XTColors.plist */; };
 		8F7F00B620417640008D4399 /* XTColorFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7F00B220417640008D4399 /* XTColorFetcher.m */; };
 		8F7F00B820418738008D4399 /* MyColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F7F00B720418737008D4399 /* MyColors.plist */; };
+		8F8C85132379636500F303BB /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C85112379636500F303BB /* dark.json */; };
+		8F8C85142379636500F303BB /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C85122379636500F303BB /* default.json */; };
+		8F8C8517237967E100F303BB /* ThemeColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C8516237967E100F303BB /* ThemeColorVC.m */; };
+		8F9CD737237954150010D95C /* XTColor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8F9CD736237954150010D95C /* XTColor.podspec */; };
+		8F9CD739237954AE0010D95C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8F9CD738237954AE0010D95C /* Podfile */; };
+		8F9CD73C237955E60010D95C /* NSObject+XTColorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CD73B237955E60010D95C /* NSObject+XTColorTheme.m */; };
+		8F9CD73F237956420010D95C /* XTThemeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CD73E237956420010D95C /* XTThemeConfig.m */; };
 		8FDE205A205A1DAB003B5398 /* ColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */; };
 		8FDE205D205A2175003B5398 /* UIColor+XTColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE205C205A2175003B5398 /* UIColor+XTColors.m */; };
 		8FDE2066205A2574003B5398 /* XTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2065205A2574003B5398 /* XTColor.m */; };
@@ -25,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5828098E9F6BFB95C2ED527D /* Pods_XTColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F19862120C96BB90082662A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8F45798920BD57000074A7D2 /* UIColor+XTAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XTAddition.h"; sourceTree = "<group>"; };
 		8F45798A20BD57000074A7D2 /* UIColor+XTAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XTAddition.m"; sourceTree = "<group>"; };
@@ -42,6 +51,16 @@
 		8F7F00B120417640008D4399 /* XTColorFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTColorFetcher.h; sourceTree = "<group>"; };
 		8F7F00B220417640008D4399 /* XTColorFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTColorFetcher.m; sourceTree = "<group>"; };
 		8F7F00B720418737008D4399 /* MyColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyColors.plist; sourceTree = "<group>"; };
+		8F8C85112379636500F303BB /* dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dark.json; sourceTree = "<group>"; };
+		8F8C85122379636500F303BB /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		8F8C8515237967E100F303BB /* ThemeColorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeColorVC.h; sourceTree = "<group>"; };
+		8F8C8516237967E100F303BB /* ThemeColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeColorVC.m; sourceTree = "<group>"; };
+		8F9CD736237954150010D95C /* XTColor.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XTColor.podspec; sourceTree = SOURCE_ROOT; };
+		8F9CD738237954AE0010D95C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F9CD73A237955E60010D95C /* NSObject+XTColorTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XTColorTheme.h"; sourceTree = "<group>"; };
+		8F9CD73B237955E60010D95C /* NSObject+XTColorTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XTColorTheme.m"; sourceTree = "<group>"; };
+		8F9CD73D237956420010D95C /* XTThemeConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTThemeConfig.h; sourceTree = "<group>"; };
+		8F9CD73E237956420010D95C /* XTThemeConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTThemeConfig.m; sourceTree = "<group>"; };
 		8FDE2058205A1DAB003B5398 /* ColorCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCollectionViewCell.h; sourceTree = "<group>"; };
 		8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCollectionViewCell.m; sourceTree = "<group>"; };
 		8FDE205B205A2175003B5398 /* UIColor+XTColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XTColors.h"; sourceTree = "<group>"; };
@@ -50,6 +69,8 @@
 		8FDE2065205A2574003B5398 /* XTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTColor.m; sourceTree = "<group>"; };
 		8FDE206A205A26E0003B5398 /* XTColor+MyColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XTColor+MyColors.h"; sourceTree = "<group>"; };
 		8FDE206B205A26E0003B5398 /* XTColor+MyColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XTColor+MyColors.m"; sourceTree = "<group>"; };
+		962F65202486B416A09424DF /* Pods-XTColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTColor.release.xcconfig"; path = "Target Support Files/Pods-XTColor/Pods-XTColor.release.xcconfig"; sourceTree = "<group>"; };
+		FC207022421778AB72CC067D /* Pods-XTColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTColor.debug.xcconfig"; path = "Target Support Files/Pods-XTColor/Pods-XTColor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21654B40D61B15F53A54B416 /* Pods_XTColor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,8 @@
 			children = (
 				8F7F009420417605008D4399 /* XTColor */,
 				8F7F009320417605008D4399 /* Products */,
+				E27D61CB839A5BB69115E722 /* Pods */,
+				FDE7B1B47873095BFD10691A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,17 +106,17 @@
 		8F7F009420417605008D4399 /* XTColor */ = {
 			isa = PBXGroup;
 			children = (
+				8F9CD738237954AE0010D95C /* Podfile */,
+				8F9CD736237954150010D95C /* XTColor.podspec */,
 				8F19862120C96BB90082662A /* README.md */,
 				8F7F00AB20417640008D4399 /* color */,
 				8F7F009520417605008D4399 /* AppDelegate.h */,
 				8F7F009620417605008D4399 /* AppDelegate.m */,
+				8F8C85102379632900F303BB /* customTheme */,
 				8F7F00B720418737008D4399 /* MyColors.plist */,
-				8F7F009820417605008D4399 /* ViewController.h */,
-				8F7F009920417605008D4399 /* ViewController.m */,
-				8FDE206A205A26E0003B5398 /* XTColor+MyColors.h */,
-				8FDE206B205A26E0003B5398 /* XTColor+MyColors.m */,
-				8FDE2058205A1DAB003B5398 /* ColorCollectionViewCell.h */,
-				8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */,
+				8F8C850F2379630E00F303BB /* util */,
+				8F8C850E2379630200F303BB /* View */,
+				8F8C850D237962EB00F303BB /* controller */,
 				8F7F009B20417605008D4399 /* Main.storyboard */,
 				8F7F009E20417605008D4399 /* Assets.xcassets */,
 				8F7F00A020417605008D4399 /* LaunchScreen.storyboard */,
@@ -105,6 +129,7 @@
 		8F7F00AB20417640008D4399 /* color */ = {
 			isa = PBXGroup;
 			children = (
+				8F9CD732237951620010D95C /* theme */,
 				8FDE2064205A2574003B5398 /* XTColor.h */,
 				8FDE2065205A2574003B5398 /* XTColor.m */,
 				8F45798920BD57000074A7D2 /* UIColor+XTAddition.h */,
@@ -118,6 +143,72 @@
 			path = color;
 			sourceTree = "<group>";
 		};
+		8F8C850D237962EB00F303BB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F009820417605008D4399 /* ViewController.h */,
+				8F7F009920417605008D4399 /* ViewController.m */,
+				8F8C8515237967E100F303BB /* ThemeColorVC.h */,
+				8F8C8516237967E100F303BB /* ThemeColorVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		8F8C850E2379630200F303BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE2058205A1DAB003B5398 /* ColorCollectionViewCell.h */,
+				8FDE2059205A1DAB003B5398 /* ColorCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F8C850F2379630E00F303BB /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE206A205A26E0003B5398 /* XTColor+MyColors.h */,
+				8FDE206B205A26E0003B5398 /* XTColor+MyColors.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		8F8C85102379632900F303BB /* customTheme */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C85112379636500F303BB /* dark.json */,
+				8F8C85122379636500F303BB /* default.json */,
+			);
+			path = customTheme;
+			sourceTree = "<group>";
+		};
+		8F9CD732237951620010D95C /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				8F9CD73D237956420010D95C /* XTThemeConfig.h */,
+				8F9CD73E237956420010D95C /* XTThemeConfig.m */,
+				8F9CD73A237955E60010D95C /* NSObject+XTColorTheme.h */,
+				8F9CD73B237955E60010D95C /* NSObject+XTColorTheme.m */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		E27D61CB839A5BB69115E722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC207022421778AB72CC067D /* Pods-XTColor.debug.xcconfig */,
+				962F65202486B416A09424DF /* Pods-XTColor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDE7B1B47873095BFD10691A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5828098E9F6BFB95C2ED527D /* Pods_XTColor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F7F00A820417605008D4399 /* Build configuration list for PBXNativeTarget "XTColor" */;
 			buildPhases = (
+				4029CB7ACDB8BCE192E6DAB0 /* [CP] Check Pods Manifest.lock */,
 				8F7F008E20417605008D4399 /* Sources */,
 				8F7F008F20417605008D4399 /* Frameworks */,
 				8F7F009020417605008D4399 /* Resources */,
+				05199B85D5BBC5027EAD8356 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,14 +271,81 @@
 			files = (
 				8F19862220C96BB90082662A /* README.md in Resources */,
 				8F7F00B820418738008D4399 /* MyColors.plist in Resources */,
+				8F9CD739237954AE0010D95C /* Podfile in Resources */,
 				8F7F00A220417605008D4399 /* LaunchScreen.storyboard in Resources */,
 				8F7F009F20417605008D4399 /* Assets.xcassets in Resources */,
 				8F7F00B520417640008D4399 /* XTColors.plist in Resources */,
+				8F8C85142379636500F303BB /* default.json in Resources */,
+				8F9CD737237954150010D95C /* XTColor.podspec in Resources */,
+				8F8C85132379636500F303BB /* dark.json in Resources */,
 				8F7F009D20417605008D4399 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05199B85D5BBC5027EAD8356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTColor/Pods-XTColor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/UIFontWDCustomLoader/UIFontWDCustomLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Valet/Valet.framework",
+				"${BUILT_PRODUCTS_DIR}/XTBase/XTBase.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIFontWDCustomLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Valet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XTBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XTColor/Pods-XTColor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4029CB7ACDB8BCE192E6DAB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTColor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F7F008E20417605008D4399 /* Sources */ = {
@@ -194,6 +354,9 @@
 			files = (
 				8FDE205A205A1DAB003B5398 /* ColorCollectionViewCell.m in Sources */,
 				8F7F009A20417605008D4399 /* ViewController.m in Sources */,
+				8F9CD73C237955E60010D95C /* NSObject+XTColorTheme.m in Sources */,
+				8F9CD73F237956420010D95C /* XTThemeConfig.m in Sources */,
+				8F8C8517237967E100F303BB /* ThemeColorVC.m in Sources */,
 				8FDE205D205A2175003B5398 /* UIColor+XTColors.m in Sources */,
 				8F7F00A520417605008D4399 /* main.m in Sources */,
 				8F7F009720417605008D4399 /* AppDelegate.m in Sources */,
@@ -332,6 +495,7 @@
 		};
 		8F7F00A920417605008D4399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC207022421778AB72CC067D /* Pods-XTColor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +510,7 @@
 		};
 		8F7F00AA20417605008D4399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962F65202486B416A09424DF /* Pods-XTColor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

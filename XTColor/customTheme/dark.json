@@ -1,0 +1,24 @@
+{
+    "textColor":"FFFFFF",
+    "backColor":"1A1C1E",
+    "themeColor":"4F73D4",
+    "bgColor":"1F2123",
+    "iconBorderColor":"ffffff",
+    "iconColor":"8A929A",
+    "topBarColor":"000000",
+    "hudColor":"333639",
+    
+    "markColor":"909399",
+    "seplineLineColor":"e5e5e5",
+    "quoteTextColor":"777777",
+    "homeTitleTextColor":"FFFFFF",
+    "quoteBarColor":"858281",
+    "linkColor":"6FB8E0",
+    
+    "statusBarIsWhite":"1",
+    "navBarColor":"232628",
+    "navTextColor":"000000",
+    "drawerColor":"222528",
+    "midDrawerPadColor":"1A1C1E",
+    "drawerSelectedColor":"292C2F",
+}
