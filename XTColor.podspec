@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Akateason/XTColor.git", :tag => s.version }
 
 
-  s.source_files  = "XTColor/color/*.{h,m}, XTColor/color/theme/*.{h,m}"
-  s.public_header_files = "XTColor/color/*.h, XTColor/color/theme/*.h"
+  s.source_files  = "XTColor/color/*.{h,m}", "XTColor/color/theme/*.{h,m}"
+  s.public_header_files = "XTColor/color/*.h", "XTColor/color/theme/*.h"
   s.dependency 'XTBase'
 
 
