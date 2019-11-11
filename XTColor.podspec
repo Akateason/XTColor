@@ -13,16 +13,17 @@ Pod::Spec.new do |s|
   
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "teason" => "akateason@qq.com" }
+  s.author       = { "teason" => "akateason@qq.com" }
   
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/Akateason/XTColor.git", :tag => s.version }
 
 
-  s.source_files  = "XTColor/color/*.{h,m}"
-  s.public_header_files = "XTColor/color/*.h"
-  s.dependency = "XTBase"
+  s.source_files  = "XTColor/color/*.{h,m}, XTColor/color/theme/*.{h,m}"
+  s.public_header_files = "XTColor/color/*.h, XTColor/color/theme/*.h"
+  s.dependency 'XTBase'
+
 
   s.resources = "XTColor/color/*.plist"
 
