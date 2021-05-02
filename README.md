@@ -40,7 +40,7 @@ self.view.backgroundColor = [XTColor xt_main] ;
 
 ```
 //  渐变色
-UIColor *aColor = [UIColor colorBetweengGradientColor:UIColorHex(@"31a1f5") andColor:UIColorHex(@"1bff92") percent:.4] ;
+UIColor *aColor = [UIColor xt_colorBetweengGradientColor:UIColorHex(@"31a1f5") andColor:UIColorHex(@"1bff92") percent:.4] ;
 self.view.backgroundColor = aColor ;
 ```
 

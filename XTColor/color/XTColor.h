@@ -17,8 +17,8 @@
 #define UIColorRGB(r, g, b)             UIColorRGBA(r, g, b, 1.0)
 
 
-#define UIColorHex(X)                   [UIColor colorWithHexString:X]
-#define UIColorHexA(X,a)                [UIColor colorWithHexString:X alpha:a]
+#define UIColorHex(X)                   [UIColor xt_colorWithHexString:X]
+#define UIColorHexA(X,a)                [UIColor xt_colorWithHexString:X alpha:a]
 
 
 @interface XTColor : UIColor
