@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/Akateason/XTColor.git", :tag => s.version }
+  s.source       = { :git => "http://github.com/Akateason/XTColor.git", :tag => s.version }
 
 
   s.source_files  = "XTColor/color/*.{h,m}", "XTColor/color/theme/*.{h,m}"
