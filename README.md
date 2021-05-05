@@ -59,4 +59,4 @@ teason, akateason@qq.com
 
 ## License
 
-XTColor is available under the MIT license. See the LICENSE file for more info.1
+XTColor is available under the MIT license. See the LICENSE file for more info.
